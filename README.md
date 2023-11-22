@@ -1,4 +1,4 @@
-# Auto_DS
+# auto-ds-tools
 Welcome to the Data Science Automation Code Snippets repository!
 
 
