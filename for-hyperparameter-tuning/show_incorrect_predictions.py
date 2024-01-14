@@ -1,5 +1,5 @@
-""" This is a code snippet for showing the images which the model predicted incorrectly and it's correct label
- and predicted label in the image classification problem """
+""" This is a code snippet for showing the images which the model predicted incorrectly 
+it also shows it's correct label and predicted label in the image classification problem """
 import torch
 import matplotlib.pyplot as plt
 
@@ -15,5 +15,5 @@ def detect_wrong_preds(model, val_loader, dataset):
       if not got[i]:
         plt.imshow(imgs[i].permute(1, 2, 0).cpu().detach().numpy())
         plt.show()
-        print('Label:', dataset.classes[labels[i]], ', Predicted:', dataset.classes[preds[i]])
+        print('Label:', dataset.classes[labels[i]], ', predicted:', dataset.classes[preds[i]])
     break
