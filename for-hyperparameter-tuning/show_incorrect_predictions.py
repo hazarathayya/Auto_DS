@@ -1,4 +1,4 @@
-""" This is a code snippet for showing the images and it's correct label
+""" This is a code snippet for showing the images which the model predicted incorrectly and it's correct label
  and predicted label in the image classification problem """
 import torch
 import matplotlib.pyplot as plt
